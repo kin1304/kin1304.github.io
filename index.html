@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -16,12 +18,21 @@
                 <h2>Kin</h2>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home">Trang chủ</a></li>
-                <li><a href="#about">Giới thiệu</a></li>
-                <li><a href="#skills">Kỹ năng</a></li>
-                <li><a href="#projects">Dự án</a></li>
-                <li><a href="#contact">Liên hệ</a></li>
+                <li><a href="#home" data-translate="nav_home">Trang chủ</a></li>
+                <li><a href="#about" data-translate="nav_about">Giới thiệu</a></li>
+                <li><a href="#skills" data-translate="nav_skills">Kỹ năng</a></li>
+                <li><a href="#projects" data-translate="nav_projects">Dự án</a></li>
+                <li><a href="#contact" data-translate="nav_contact">Liên hệ</a></li>
             </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="vi" onclick="changeLanguage('vi')">
+                    <i class="fas fa-flag"></i> VI
+                </button>
+                <button class="lang-btn" data-lang="en" onclick="changeLanguage('en')">
+                    <i class="fas fa-flag"></i> EN
+                </button>
+                <button onclick="testTranslation()" style="background: red; color: white; border: none; padding: 5px; margin-left: 10px;">Test</button>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -34,17 +45,17 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Xin chào, tôi là <span class="highlight">Kin</span></h1>
-                <p class="hero-subtitle">Sinh viên đam mê công nghệ và phát triển phần mềm</p>
+                <h1 class="hero-title"><span data-translate="hero_title">Xin chào, tôi là</span> <span class="highlight">Kin</span></h1>
+                <p class="hero-subtitle" data-translate="hero_subtitle">Sinh viên đam mê công nghệ và phát triển phần mềm</p>
                 <div class="hero-buttons">
-                    <a href="#about" class="btn btn-primary">Tìm hiểu thêm</a>
-                    <a href="#contact" class="btn btn-secondary">Liên hệ ngay</a>
+                    <a href="#about" class="btn btn-primary" data-translate="hero_btn_learn">Tìm hiểu thêm</a>
+                    <a href="#contact" class="btn btn-secondary" data-translate="hero_btn_contact">Liên hệ ngay</a>
                 </div>
             </div>
             <div class="hero-image">
                 <div class="floating-card">
                     <i class="fas fa-code"></i>
-                    <h3>Phát triển phần mềm</h3>
+                    <h3 data-translate="hero_floating_card">Phát triển phần mềm</h3>
                 </div>
             </div>
         </div>
@@ -54,32 +65,32 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2>Giới thiệu</h2>
-                <p>Một chút về bản thân và đam mê của tôi</p>
+                <h2 data-translate="about_title">Giới thiệu</h2>
+                <p data-translate="about_subtitle">Một chút về bản thân và đam mê của tôi</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Tôi là ai?</h3>
-                    <p>Tôi là Kin, một sinh viên đam mê công nghệ và lập trình. Tôi thích khám phá những công nghệ mới và tìm hiểu về:</p>
+                    <h3 data-translate="about_who">Tôi là ai?</h3>
+                    <p data-translate="about_description">Tôi là Kin, một sinh viên đam mê công nghệ và lập trình. Tôi thích khám phá những công nghệ mới và tìm hiểu về:</p>
                     <ul class="about-features">
-                        <li><i class="fas fa-check"></i> Phát triển ứng dụng web với ASP.NET Core</li>
-                        <li><i class="fas fa-check"></i> Phân tích dữ liệu và Machine Learning</li>
-                        <li><i class="fas fa-check"></i> Thuật toán và tối ưu hóa</li>
-                        <li><i class="fas fa-check"></i> Công nghệ Python và C#</li>
+                        <li><i class="fas fa-check"></i> <span data-translate="about_feature_1">Phát triển ứng dụng web với ASP.NET Core</span></li>
+                        <li><i class="fas fa-check"></i> <span data-translate="about_feature_2">Phân tích dữ liệu và Machine Learning</span></li>
+                        <li><i class="fas fa-check"></i> <span data-translate="about_feature_3">Thuật toán và tối ưu hóa</span></li>
+                        <li><i class="fas fa-check"></i> <span data-translate="about_feature_4">Công nghệ Python và C#</span></li>
                     </ul>
                 </div>
                 <div class="about-stats">
                     <div class="stat-item">
                         <div class="stat-number">10+</div>
-                        <div class="stat-label">Dự án học tập</div>
+                        <div class="stat-label" data-translate="about_stat_1">Dự án học tập</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">3+</div>
-                        <div class="stat-label">Năm học lập trình</div>
+                        <div class="stat-label" data-translate="about_stat_2">Năm học lập trình</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">100%</div>
-                        <div class="stat-label">Đam mê công nghệ</div>
+                        <div class="stat-label" data-translate="about_stat_3">Đam mê công nghệ</div>
                     </div>
                 </div>
             </div>
@@ -90,30 +101,30 @@
     <section id="skills" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>Kỹ năng của tôi</h2>
-                <p>Những công nghệ và kỹ năng tôi đang học và phát triển</p>
+                <h2 data-translate="skills_title">Kỹ năng của tôi</h2>
+                <p data-translate="skills_subtitle">Những công nghệ và kỹ năng tôi đang học và phát triển</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h3>Phát triển Web</h3>
-                    <p>Xây dựng ứng dụng web với ASP.NET Core và các công nghệ backend hiện đại</p>
+                    <h3 data-translate="skills_web_title">Phát triển Web</h3>
+                    <p data-translate="skills_web_desc">Xây dựng ứng dụng web với ASP.NET Core và các công nghệ backend hiện đại</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-database"></i>
                     </div>
-                    <h3>Phân tích dữ liệu</h3>
-                    <p>Phân tích và khai thác dữ liệu với Python, Machine Learning và các thuật toán cơ bản</p>
+                    <h3 data-translate="skills_data_title">Phân tích dữ liệu</h3>
+                    <p data-translate="skills_data_desc">Phân tích và khai thác dữ liệu với Python, Machine Learning và các thuật toán cơ bản</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-cloud"></i>
                     </div>
-                    <h3>Cloud & DevOps</h3>
-                    <p>Triển khai và quản lý ứng dụng trên cloud với Docker và các công cụ DevOps</p>
+                    <h3 data-translate="skills_cloud_title">Cloud & DevOps</h3>
+                    <p data-translate="skills_cloud_desc">Triển khai và quản lý ứng dụng trên cloud với Docker và các công cụ DevOps</p>
                 </div>
             </div>
         </div>
@@ -123,8 +134,8 @@
     <section id="projects" class="team">
         <div class="container">
             <div class="section-header">
-                <h2>Dự án của tôi</h2>
-                <p>Những dự án tôi đã thực hiện trong quá trình học tập</p>
+                <h2 data-translate="projects_title">Dự án của tôi</h2>
+                <p data-translate="projects_subtitle">Những dự án tôi đã thực hiện trong quá trình học tập</p>
             </div>
             <div class="team-grid">
                 <div class="project-card">
@@ -132,7 +143,7 @@
                         <i class="fas fa-building"></i>
                     </div>
                     <h3>CNPM_NC</h3>
-                    <p class="project-description">Hệ thống quản lý dựa trên ASP.NET Core và SQL Server. Dự án học tập về phát triển web backend.</p>
+                    <p class="project-description" data-translate="project_cnpm_desc">Hệ thống quản lý dựa trên ASP.NET Core và SQL Server. Dự án học tập về phát triển web backend.</p>
                     <div class="project-tech">
                         <span class="skill-tag">C#</span>
                         <span class="skill-tag">ASP.NET</span>
@@ -141,7 +152,7 @@
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/kin1304/CNPM_NC" target="_blank" class="btn btn-primary">
-                            <i class="fab fa-github"></i> Xem dự án
+                            <i class="fab fa-github"></i> <span data-translate="project_view">Xem dự án</span>
                         </a>
                     </div>
                 </div>
@@ -151,7 +162,7 @@
                         <i class="fas fa-chart-bar"></i>
                     </div>
                     <h3>DAPM</h3>
-                    <p class="project-description">Ứng dụng phân tích dữ liệu sử dụng thuật toán data mining để gom cụm các đồ vật được mua nhiều trong cửa hàng.</p>
+                    <p class="project-description" data-translate="project_dapm_desc">Ứng dụng phân tích dữ liệu sử dụng thuật toán data mining để gom cụm các đồ vật được mua nhiều trong cửa hàng.</p>
                     <div class="project-tech">
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">Streamlit</span>
@@ -160,7 +171,7 @@
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/kin1304/Deploy" target="_blank" class="btn btn-primary">
-                            <i class="fab fa-github"></i> Xem dự án
+                            <i class="fab fa-github"></i> <span data-translate="project_view">Xem dự án</span>
                         </a>
                     </div>
                 </div>
@@ -170,7 +181,7 @@
                         <i class="fas fa-gamepad"></i>
                     </div>
                     <h3>Duck Race</h3>
-                    <p class="project-description">Game con vịt chạy đua được viết bằng C#. Dự án học tập về lập trình game đơn giản.</p>
+                    <p class="project-description" data-translate="project_duck_desc">Game con vịt chạy đua được viết bằng C#. Dự án học tập về lập trình game đơn giản.</p>
                     <div class="project-tech">
                         <span class="skill-tag">C#</span>
                         <span class="skill-tag">Game Development</span>
@@ -178,7 +189,7 @@
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/kin1304/duckrace" target="_blank" class="btn btn-primary">
-                            <i class="fab fa-github"></i> Xem dự án
+                            <i class="fab fa-github"></i> <span data-translate="project_view">Xem dự án</span>
                         </a>
                     </div>
                 </div>
@@ -188,7 +199,7 @@
                         <i class="fas fa-calculator"></i>
                     </div>
                     <h3>Calculator</h3>
-                    <p class="project-description">Ứng dụng máy tính đơn giản được viết bằng Java. Dự án học tập về lập trình GUI.</p>
+                    <p class="project-description" data-translate="project_calc_desc">Ứng dụng máy tính đơn giản được viết bằng Java. Dự án học tập về lập trình GUI.</p>
                     <div class="project-tech">
                         <span class="skill-tag">Java</span>
                         <span class="skill-tag">Swing</span>
@@ -196,7 +207,7 @@
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/kin1304/Calculator" target="_blank" class="btn btn-primary">
-                            <i class="fab fa-github"></i> Xem dự án
+                            <i class="fab fa-github"></i> <span data-translate="project_view">Xem dự án</span>
                         </a>
                     </div>
                 </div>
@@ -206,7 +217,7 @@
                         <i class="fas fa-brain"></i>
                     </div>
                     <h3>KNN Algorithm</h3>
-                    <p class="project-description">Triển khai thuật toán K-Nearest Neighbors (KNN) cho bài toán phân loại. Dự án học tập về Machine Learning.</p>
+                    <p class="project-description" data-translate="project_knn_desc">Triển khai thuật toán K-Nearest Neighbors (KNN) cho bài toán phân loại. Dự án học tập về Machine Learning.</p>
                     <div class="project-tech">
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">Machine Learning</span>
@@ -215,7 +226,7 @@
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/kin1304/KNN" target="_blank" class="btn btn-primary">
-                            <i class="fab fa-github"></i> Xem dự án
+                            <i class="fab fa-github"></i> <span data-translate="project_view">Xem dự án</span>
                         </a>
                     </div>
                 </div>
@@ -225,7 +236,7 @@
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h3>Regression Analysis</h3>
-                    <p class="project-description">Phân tích hồi quy và dự đoán dữ liệu sử dụng các thuật toán regression khác nhau.</p>
+                    <p class="project-description" data-translate="project_regression_desc">Phân tích hồi quy và dự đoán dữ liệu sử dụng các thuật toán regression khác nhau.</p>
                     <div class="project-tech">
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">Regression</span>
@@ -234,7 +245,7 @@
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/kin1304/regression" target="_blank" class="btn btn-primary">
-                            <i class="fab fa-github"></i> Xem dự án
+                            <i class="fab fa-github"></i> <span data-translate="project_view">Xem dự án</span>
                         </a>
                     </div>
                 </div>
@@ -246,8 +257,8 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2>Liên hệ với tôi</h2>
-                <p>Hãy để lại thông tin nếu bạn muốn trao đổi về công nghệ</p>
+                <h2 data-translate="contact_title">Liên hệ với tôi</h2>
+                <p data-translate="contact_subtitle">Hãy để lại thông tin nếu bạn muốn trao đổi về công nghệ</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
@@ -282,15 +293,15 @@
                 </div>
                 <form class="contact-form">
                     <div class="form-group">
-                        <input type="text" placeholder="Họ và tên" required>
+                        <input type="text" data-translate-placeholder="contact_name" placeholder="Họ và tên" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Email" required>
+                        <input type="email" data-translate-placeholder="contact_email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Nội dung tin nhắn" rows="5" required></textarea>
+                        <textarea data-translate-placeholder="contact_message" placeholder="Nội dung tin nhắn" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                    <button type="submit" class="btn btn-primary" data-translate="contact_send">Gửi tin nhắn</button>
                 </form>
             </div>
         </div>
@@ -336,6 +347,5 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html> 

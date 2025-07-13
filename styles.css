@@ -76,6 +76,43 @@ body {
     transition: 0.3s;
 }
 
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 2px solid #4F46E5;
+    color: #4F46E5;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lang-btn:hover {
+    background: #4F46E5;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.lang-btn.active {
+    background: #4F46E5;
+    color: white;
+}
+
+.lang-btn i {
+    font-size: 0.8rem;
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
@@ -564,6 +601,10 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
+        display: none;
+    }
+    
+    .language-switcher {
         display: none;
     }
     

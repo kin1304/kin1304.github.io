@@ -77,18 +77,18 @@ if (contactForm) {
         
         // Simple validation
         if (!name || !email || !message) {
-            alert('Vui lòng điền đầy đủ thông tin!');
+            alert(translations[currentLanguage].contact_error);
             return;
         }
         
         // Simulate form submission
         const submitBtn = contactForm.querySelector('button[type="submit"]');
         const originalText = submitBtn.textContent;
-        submitBtn.textContent = 'Đang gửi...';
+        submitBtn.textContent = translations[currentLanguage].contact_sending;
         submitBtn.disabled = true;
         
         setTimeout(() => {
-            alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.');
+            alert(translations[currentLanguage].contact_success);
             contactForm.reset();
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
@@ -242,6 +242,13 @@ style.textContent = `
         
         .nav-menu.active {
             left: 0;
+        }
+        
+        .language-switcher {
+            display: flex !important;
+            justify-content: center;
+            margin-top: 1rem;
+            gap: 1rem;
         }
         
         .hamburger.active span:nth-child(2) {

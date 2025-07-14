@@ -7,7 +7,7 @@ const translations = {
         nav_skills: "Kỹ năng",
         nav_projects: "Dự án",
         nav_contact: "Liên hệ",
-        nav_project_live: "Project on Live",
+        nav_project_live: "Dự án trực tuyến",
         
         // Hero Section
         hero_title: "Xin chào, tôi là",
@@ -51,9 +51,9 @@ const translations = {
         project_view: "Xem dự án",
         
         // Project on Live
-        project_live_title: "Project on Live",
+        project_live_title: "Dự án trực tuyến",
         project_live_subtitle: "Các dự án đang chạy trực tiếp trên Internet",
-        project_live_duck_desc: "Game Đua Vịt phiên bản web ASP.NET 8.0, chơi trực tiếp trên trình duyệt.",
+        project_live_duck_desc: "Game Đua Vịt phiên bản web ASP.NET 8.0, chơi trực tiếp trên trình duyệt. Sử dụng Render và Docker để deploy.",
         project_live_play: "Chơi ngay",
         
         // Contact Section
@@ -125,7 +125,7 @@ const translations = {
         // Project on Live
         project_live_title: "Project on Live",
         project_live_subtitle: "Live projects running on the Internet",
-        project_live_duck_desc: "Duck Race game web version ASP.NET 8.0, play directly in your browser.",
+        project_live_duck_desc: "Duck Race game web version ASP.NET 8.0, play directly in your browser. Deployed using Render and Docker.",
         project_live_play: "Play now",
         
         // Contact Section

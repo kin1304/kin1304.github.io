@@ -754,3 +754,58 @@ html {
         font-size: 1.5rem;
     }
 } 
+
+.project-live {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+.project-live .section-header h2 {
+    color: #4F46E5;
+}
+.project-live .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.project-live .project-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 2rem;
+    max-width: 350px;
+    width: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-live .project-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(79,70,229,0.15);
+}
+.project-live .project-icon {
+    font-size: 3rem;
+    color: #4F46E5;
+    margin-bottom: 1rem;
+}
+.project-live .project-tech {
+    margin: 1rem 0;
+}
+.project-live .skill-tag {
+    background: #e0e7ff;
+    color: #3730A3;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin-right: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.project-live .btn-primary {
+    background: #22c55e;
+    color: #fff;
+    border: none;
+}
+.project-live .btn-primary:hover {
+    background: #16a34a;
+} 

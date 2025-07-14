@@ -7,6 +7,7 @@ const translations = {
         nav_skills: "Kỹ năng",
         nav_projects: "Dự án",
         nav_contact: "Liên hệ",
+        nav_project_live: "Project on Live",
         
         // Hero Section
         hero_title: "Xin chào, tôi là",
@@ -49,6 +50,12 @@ const translations = {
         project_regression_desc: "Phân tích hồi quy và dự đoán dữ liệu sử dụng các thuật toán regression khác nhau.",
         project_view: "Xem dự án",
         
+        // Project on Live
+        project_live_title: "Project on Live",
+        project_live_subtitle: "Các dự án đang chạy trực tiếp trên Internet",
+        project_live_duck_desc: "Game Đua Vịt phiên bản web ASP.NET 8.0, chơi trực tiếp trên trình duyệt.",
+        project_live_play: "Chơi ngay",
+        
         // Contact Section
         contact_title: "Liên hệ với tôi",
         contact_subtitle: "Hãy để lại thông tin nếu bạn muốn trao đổi về công nghệ",
@@ -72,6 +79,7 @@ const translations = {
         nav_skills: "Skills",
         nav_projects: "Projects",
         nav_contact: "Contact",
+        nav_project_live: "Project on Live",
         
         // Hero Section
         hero_title: "Hello, I'm",
@@ -113,6 +121,12 @@ const translations = {
         project_knn_desc: "Implementation of K-Nearest Neighbors (KNN) algorithm for classification problems. Learning project about Machine Learning.",
         project_regression_desc: "Regression analysis and data prediction using various regression algorithms.",
         project_view: "View Project",
+        
+        // Project on Live
+        project_live_title: "Project on Live",
+        project_live_subtitle: "Live projects running on the Internet",
+        project_live_duck_desc: "Duck Race game web version ASP.NET 8.0, play directly in your browser.",
+        project_live_play: "Play now",
         
         // Contact Section
         contact_title: "Contact Me",

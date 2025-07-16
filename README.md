@@ -169,7 +169,7 @@ Dự án này được phân phối dưới MIT License. Xem file `LICENSE` đ�
 ## 📞 Liên hệ
 
 - **GitHub**: [@kin1304](https://github.com/kin1304)
-- **Email**: [Thông tin liên hệ trong trang web]
+- **Email**: nguyennha6a6kl@gmail.com
 - **Website**: [kin1304.github.io](https://kin1304.github.io)
 
 ---

@@ -71,9 +71,13 @@ const translations = {
         project_live_android_title: "Android App Collection",
         project_android_desc: "Tổng hợp các project Android viết bằng Java. Tham khảo mã nguồn và hướng dẫn tại GitHub.",
         project_live_virus_title: "Virusonoffnotepad",
-        project_virus_desc: "Ứng dụng Windows Forms mô phỏng quét và tiêu diệt tiến trình Notepad trên Windows. Học về quản lý tiến trình, C#.",
+        project_virus_desc: "Ứng dụng Windows Forms bật và tắt Notepad liên tục trên Windows. Học về quản lý tiến trình, C#.",
         project_icpc_title: "ICPC Algorithms",
         project_icpc_desc: "Tổng hợp các bài giải thuật, bài tập lập trình thi ICPC, sử dụng C++.",
+        project_textgraph_title: "TextGraph",
+        project_textgraph_desc: "Khảo sát các mô hình GNNs cho bài toán phân tích cảm xúc tiếng Việt. Đánh giá TextGCN, HGAT, BertGCN, GraphSAGE trên các tập dữ liệu UIT-VSFC và Foody.",
+        project_pointgathering_title: "PointGathering",
+        project_pointgathering_desc: "Dự án Python thu thập và trích xuất điểm thi THPTQG từ các báo lớn Việt Nam như Thanh Niên, VNExpress, Tuổi Trẻ. Hỗ trợ mở rộng nguồn dữ liệu.",
         
         // Contact Section
         contact_title: "Liên hệ với tôi",
@@ -162,9 +166,13 @@ const translations = {
         project_live_android_title: "Android App Collection",
         project_android_desc: "A collection of Android projects written in Java. See source code and guide on GitHub.",
         project_live_virus_title: "Virusonoffnotepad",
-        project_virus_desc: "Windows Forms app simulating scanning and killing Notepad processes on Windows. Learn about process management, C#.",
+        project_virus_desc: "Windows Forms app simulating turn on and off Notepad processes on Windows. Learn about process management, C#.",
         project_icpc_title: "ICPC Algorithms",
         project_icpc_desc: "A collection of algorithm solutions and ICPC programming problems in C++.",
+        project_textgraph_title: "TextGraph",
+        project_textgraph_desc: "Survey of GNN models for Vietnamese sentiment analysis. Evaluate TextGCN, HGAT, BertGCN, GraphSAGE on UIT-VSFC and Foody datasets.",
+        project_pointgathering_title: "PointGathering",
+        project_pointgathering_desc: "Python project to collect and extract national exam scores from major Vietnamese newspapers such as Thanh Nien, VNExpress, Tuoi Tre. Supports data source expansion.",
         
         // Contact Section
         contact_title: "Contact Me",

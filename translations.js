@@ -112,10 +112,10 @@ const translations = {
         
         // Hero Section
         hero_title: "Hello, I'm",
-        hero_subtitle: "A student passionate about technology and software development",
+        hero_subtitle: "A student passionate about technology and Data Analysis",
         hero_btn_learn: "Learn More",
         hero_btn_contact: "Contact Now",
-        hero_floating_card: "Software Development",
+        hero_floating_card: "Data Analysis",
         
         // About Section
         about_title: "About",

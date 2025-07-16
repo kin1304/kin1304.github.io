@@ -14,6 +14,10 @@ const translations = {
         algorithm_subtitle: "Các project, bài toán và demo về thuật toán, giải thuật, machine learning.",
         game_title: "Game",
         game_subtitle: "Các trò chơi nhỏ do mình phát triển, giải trí và học hỏi công nghệ.",
+        ml_algorithm_title: "Thuật toán Machine Learning",
+        ml_algorithm_subtitle: "Các project về thuật toán Machine Learning.",
+        project_knn_title: "Thuật toán KNN",
+        project_regression_title: "Phân tích hồi quy",
         
         // Hero Section
         hero_title: "Xin chào, tôi là",
@@ -109,6 +113,10 @@ const translations = {
         algorithm_subtitle: "Projects, problems and demos about algorithms, data structures, machine learning.",
         game_title: "Game",
         game_subtitle: "Mini games developed for fun and learning technology.",
+        ml_algorithm_title: "Machine Learning Algorithms",
+        ml_algorithm_subtitle: "Projects about Machine Learning algorithms.",
+        project_knn_title: "KNN Algorithm",
+        project_regression_title: "Regression Analysis",
         
         // Hero Section
         hero_title: "Hello, I'm",

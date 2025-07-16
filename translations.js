@@ -21,10 +21,10 @@ const translations = {
         
         // Hero Section
         hero_title: "Xin chào, tôi là",
-        hero_subtitle: "Sinh viên đam mê công nghệ và phát triển phần mềm",
+        hero_subtitle: "Sinh viên đam mê công nghệ và phân tích dữ liệu",
         hero_btn_learn: "Tìm hiểu thêm",
         hero_btn_contact: "Liên hệ ngay",
-        hero_floating_card: "Phát triển phần mềm",
+        hero_floating_card: "Phân tích dữ liệu",
         
         // About Section
         about_title: "Giới thiệu",
@@ -72,9 +72,9 @@ const translations = {
         project_live_portfolio_desc: "Website portfolio cá nhân hiện đại, responsive, xây dựng bằng HTML, CSS, JavaScript. Giới thiệu bản thân, kỹ năng, dự án, liên hệ.",
         project_live_bingo_title: "Game Bingo (Java)",
         project_bingo_desc: "Game Bingo viết bằng Java, tham khảo mã nguồn và hướng dẫn tại GitHub.",
-        project_live_android_title: "Android App Collection",
-        project_android_desc: "Tổng hợp các project Android viết bằng Java. Tham khảo mã nguồn và hướng dẫn tại GitHub.",
-        project_live_virus_title: "Virusonoffnotepad",
+        project_android_title: "Android App Collection",
+        project_android_desc: "Project tìm kiếm và nhận diện khuông mặt trên android viết bằng Java. Tham khảo mã nguồn và hướng dẫn tại GitHub.",
+        project_virus_title: "Virusonoffnotepad",
         project_virus_desc: "Ứng dụng Windows Forms bật và tắt Notepad liên tục trên Windows. Học về quản lý tiến trình, C#.",
         project_icpc_title: "ICPC Algorithms",
         project_icpc_desc: "Tổng hợp các bài giải thuật, bài tập lập trình thi ICPC, sử dụng C++.",
@@ -171,9 +171,9 @@ const translations = {
         project_live_portfolio_desc: "A modern, responsive personal portfolio website built with HTML, CSS, JavaScript. Showcasing profile, skills, projects, contact.",
         project_live_bingo_title: "Game Bingo (Java)",
         project_bingo_desc: "Bingo game written in Java, see source code and guide on GitHub.",
-        project_live_android_title: "Android App Collection",
-        project_android_desc: "A collection of Android projects written in Java. See source code and guide on GitHub.",
-        project_live_virus_title: "Virusonoffnotepad",
+        project_android_title: "Android App Collection",
+        project_android_desc: "Android project for face detection and recognition written in Java. See source code and guide on GitHub.",
+        project_virus_title: "Virusonoffnotepad",
         project_virus_desc: "Windows Forms app simulating turn on and off Notepad processes on Windows. Learn about process management, C#.",
         project_icpc_title: "ICPC Algorithms",
         project_icpc_desc: "A collection of algorithm solutions and ICPC programming problems in C++.",

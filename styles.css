@@ -809,3 +809,113 @@ html {
 .project-live .btn-primary:hover {
     background: #16a34a;
 } 
+
+.game-section {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+.game-section .section-header h2 {
+    color: #4F46E5;
+}
+.game-section .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.game-section .project-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 2rem;
+    max-width: 350px;
+    width: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.game-section .project-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(79,70,229,0.15);
+}
+.game-section .project-icon {
+    font-size: 3rem;
+    color: #4F46E5;
+    margin-bottom: 1rem;
+}
+.game-section .project-tech {
+    margin: 1rem 0;
+}
+.game-section .skill-tag {
+    background: #e0e7ff;
+    color: #3730A3;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin-right: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.game-section .btn-primary {
+    background: #22c55e;
+    color: #fff;
+    border: none;
+}
+.game-section .btn-primary:hover {
+    background: #16a34a;
+} 
+
+.algorithm-section {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+.algorithm-section .section-header h2 {
+    color: #4F46E5;
+}
+.algorithm-section .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.algorithm-section .project-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 2rem;
+    max-width: 350px;
+    width: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.algorithm-section .project-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(79,70,229,0.15);
+}
+.algorithm-section .project-icon {
+    font-size: 3rem;
+    color: #4F46E5;
+    margin-bottom: 1rem;
+}
+.algorithm-section .project-tech {
+    margin: 1rem 0;
+}
+.algorithm-section .skill-tag {
+    background: #e0e7ff;
+    color: #3730A3;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin-right: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.algorithm-section .btn-primary {
+    background: #22c55e;
+    color: #fff;
+    border: none;
+}
+.algorithm-section .btn-primary:hover {
+    background: #16a34a;
+} 

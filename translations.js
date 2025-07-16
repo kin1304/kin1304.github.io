@@ -8,6 +8,12 @@ const translations = {
         nav_projects: "Dự án",
         nav_contact: "Liên hệ",
         nav_project_live: "Dự án trực tuyến",
+        nav_game: "Game",
+        nav_algorithm: "Thuật toán",
+        algorithm_title: "Thuật toán",
+        algorithm_subtitle: "Các project, bài toán và demo về thuật toán, giải thuật, machine learning.",
+        game_title: "Game",
+        game_subtitle: "Các trò chơi nhỏ do mình phát triển, giải trí và học hỏi công nghệ.",
         
         // Hero Section
         hero_title: "Xin chào, tôi là",
@@ -80,6 +86,12 @@ const translations = {
         nav_projects: "Projects",
         nav_contact: "Contact",
         nav_project_live: "Project on Live",
+        nav_game: "Game",
+        nav_algorithm: "Algorithm",
+        algorithm_title: "Algorithm",
+        algorithm_subtitle: "Projects, problems and demos about algorithms, data structures, machine learning.",
+        game_title: "Game",
+        game_subtitle: "Mini games developed for fun and learning technology.",
         
         // Hero Section
         hero_title: "Hello, I'm",
